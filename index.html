@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sound Reflexive</title>
+  <style>
+    :root {
+      --bg: #f6f4ef;
+      --text: #1f1f1f;
+      --muted: #5c5c5c;
+      --line: #d9d5cc;
+      --card: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 28px 20px 56px;
+    }
+
+    header {
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 28px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .intro {
+      margin: 0;
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 42rem;
+    }
+
+    .note {
+      margin-top: 14px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .section-title {
+      margin: 0 0 16px;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+
+    .track-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .track {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px;
+    }
+
+    .track h2 {
+      margin: 0 0 6px;
+      font-size: 1.15rem;
+    }
+
+    .meta {
+      font-size: 0.92rem;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .desc {
+      margin: 0 0 14px;
+      color: var(--text);
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 999px;
+      text-decoration: none;
+      border: 1px solid var(--text);
+      color: var(--text);
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .button:hover {
+      background: #ece8df;
+    }
+
+    footer {
+      margin-top: 38px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 640px) {
+      h1 { font-size: 1.7rem; }
+      .wrap { padding: 22px 16px 44px; }
+      .track { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>Sound Reflexive</h1>
+      <p class="intro">
+        Long-form recordings of real places, offered as environments to spend time in through listening.
+      </p>
+      <p class="note">
+        No sign-up required at this stage. If you see a prompt to open the SoundCloud app, you can ignore it and listen in your browser. A Bluetooth speaker works particularly well, but phone speakers and headphones are fine too.
+      </p>
+    </header>
+
+    <section>
+      <h2 class="section-title">Listening examples</h2>
+      <div class="track-list">
+        <article class="track">
+          <h2>Basket Weaving — Winter Afternoon</h2>
+          <div class="meta">5 hours • Indoor • Human activity • Still</div>
+          <p class="desc">Quiet basket weaving at home on a wet winter’s day, with distant weather and occasional passing activity.</p>
+          <div class="actions">
+            <a class="button" href="https://soundcloud.com/tillinghamgreg/crafty-basketry" target="_blank" rel="noopener noreferrer">Listen</a>
+          </div>
+        </article>
+
+        <article class="track">
+          <h2>Kent Weald — Through the Night</h2>
+          <div class="meta">7 hours • Outdoor • Night environment • Varied</div>
+          <p class="desc">An overnight recording in the Kent Weald, moving from evening chorus into night, with periods of stillness, marsh frogs, and a nightingale through the dark hours. A helicopter passes directly overhead and trains cut through the distance before the return of birds at dawn.</p>
+          <div class="actions">
+            <a class="button" href="https://soundcloud.com/tillinghamgreg/trains-planes-and-nightingales" target="_blank" rel="noopener noreferrer">Listen</a>
+          </div>
+        </article>
+
+        <article class="track">
+          <h2>Camber Sands — Late Summer</h2>
+          <div class="meta">2 hours 45 minutes • Outdoor • Coastal • Busy</div>
+          <p class="desc">A warm, crowded day at Camber Sands at the end of summer, walking along the waterline from Jury’s Gap towards the harbour and back. Children move through the shallows and along the shore, with games, finds, and voices carried on the air, while further back the dunes hold their own rhythm.</p>
+          <div class="actions">
+            <a class="button" href="https://soundcloud.com/tillinghamgreg/camber-sands-hot-sunday" target="_blank" rel="noopener noreferrer">Listen</a>
+          </div>
+        </article>
+
+        <article class="track">
+          <h2>Dungeness — Marsh and Sound Mirrors</h2>
+          <div class="meta">12.5 hours • Outdoor • Mixed environment • Varied</div>
+          <p class="desc">A long recording at the sound mirrors on the Dungeness reserve, where birds, marsh frogs, distant machinery, aircraft, gunfire, and the railway move in and out of the landscape. Periods of activity give way to quieter hours of wind and space.</p>
+          <div class="actions">
+            <a class="button" href="https://soundcloud.com/tillinghamgreg/marsh-heart-beat" target="_blank" rel="noopener noreferrer">Listen</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      Sound Reflexive is being shared in a simple demonstration form at this stage. Feedback is welcome, but no detailed response is needed.
+    </footer>
+  </main>
+</body>
+</html>
